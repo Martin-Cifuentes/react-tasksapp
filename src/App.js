@@ -42,7 +42,12 @@ function App() {
   }, [taskItems])
 
   return (
+
     <main className="bg-dark vh-100 text-white">
+      <div className ="bg-primary align-items-center">
+        <h3 className="text-center text-white display-5 p-4">Task App Using React</h3>
+      </div>
+      
       <Container>
         <TaskCreator createNewTask={createNewTask} />
 
